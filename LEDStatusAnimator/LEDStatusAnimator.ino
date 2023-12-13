@@ -16,8 +16,7 @@ int numStates = 3;
 void setup() {
   statusLed.begin();
   setColors(currentState);
-  statusLed.setUpdateIntervalMillis(5);
-
+  
   Serial.begin(9600);
 }
 
